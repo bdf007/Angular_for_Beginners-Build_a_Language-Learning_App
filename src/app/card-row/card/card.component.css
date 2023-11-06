@@ -1,0 +1,7 @@
+.cardContainer:hover {
+  border: 4px solid lightblue;
+}
+
+.fadedCard {
+  opacity: 10%;
+}

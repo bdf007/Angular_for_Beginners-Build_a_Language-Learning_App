@@ -1,0 +1,11 @@
+.progress {
+  height: 40px;
+  margin-top: 2em;
+}
+
+.trophy {
+  background: white;
+  color: gold;
+  font-size: 40px;
+  margin-top: 0.3em;
+}

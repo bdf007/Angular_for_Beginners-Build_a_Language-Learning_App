@@ -1,0 +1,11 @@
+.imageTitle {
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+@media (max-width: 1150px) {
+  .imageTitle {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+}

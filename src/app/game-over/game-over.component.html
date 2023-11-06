@@ -1,0 +1,8 @@
+<div class="game-over">
+  <h2>Time's Up!</h2>
+  <p class="player-score">Your Score: {{ gameService.getScore() }}</p>
+  <p class="high-score">High Score: {{ gameService.getHighScore() }}</p>
+  <button class="play-again" (click)="gameService.startGame()">
+    Play Again
+  </button>
+</div>

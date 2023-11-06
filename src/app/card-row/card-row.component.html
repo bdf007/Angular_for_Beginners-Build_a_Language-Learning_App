@@ -1,0 +1,12 @@
+<div
+  class="d-flex flex-row justify-content-center"
+  *ngFor="let cardRow of gameService.getCurrentImages()"
+>
+  <app-row-card
+    *ngFor="let card of cardRow"
+    class="card imageCard"
+    imageUrl="./../assets/{{ card }}.png"
+    imageName="{{ card }}"
+  >
+  </app-row-card>
+</div>
